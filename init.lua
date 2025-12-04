@@ -207,6 +207,8 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 
 -- my keymaps
 vim.keymap.set('i', 'jj', '<Esc>', { desc = 'Use jj as alternative to Esc in insert mode' })
+vim.keymap.set('n', '<leader>tn', ':tabnew<CR>', { desc = 'Tab: New' })
+vim.keymap.set('n', '<leader>tc', ':tabclose<CR>', { desc = 'Tab: Close' })
 
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
